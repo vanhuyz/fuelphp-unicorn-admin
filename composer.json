@@ -1,7 +1,0 @@
-{
-    "name": "vanhuyz/fuelphp-unicorn-admin",
-    "description": "Unicorn Admin for FuelPHP ",
-    "require": {
-        "php": ">=5.3.0"
-    }
-}
