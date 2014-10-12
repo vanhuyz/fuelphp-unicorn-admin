@@ -15,7 +15,7 @@ $ git clone git@github.com:vanhuyz/fuelphp-unicorn-admin.git
 ### Copy to your fuelphp project
 
 ```sh
-$  cp -R fuelphp-unicorn-admin/glpgs_oil/ /path/to/your/fuelphp_project/fuel/packages/glpgs_oil
+$ cp -R fuelphp-unicorn-admin/glpgs_oil/ /path/to/your/fuelphp_project/fuel/packages/glpgs_oil
 
 $ cp -R fuelphp-unicorn-admin/assets/ /path/to/your/fuelphp_project/fuel/public/assets/
 ```
@@ -32,7 +32,7 @@ to
 
 ```php
 //Package::load('oil');
-Package::load('custom_oil');
+Package::load('glpgs_oil');
 ```
 
 ## Usage
