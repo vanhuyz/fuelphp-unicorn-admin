@@ -7,7 +7,7 @@
 		<?php echo Asset::css('unicorn/bootstrap.min.css');?>
 		<?php echo Asset::css('unicorn/bootstrap-responsive.min.css');?>
 		<?php echo Asset::css('unicorn/unicorn.login.css');?>
-		<?php echo Asset::css('admin/login.css');?>
+		<?php echo Asset::css('unicorn/login.css');?>
 
 	</head>
 	<body>
