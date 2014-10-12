@@ -91,7 +91,7 @@
 			</div>
 		</div>
 	
-	<?php echo Asset::js("unicorn/jquery.min.js"); ?>
+		<?php echo Asset::js("unicorn/jquery.min.js"); ?>
 		<?php echo Asset::js("unicorn/jquery-ui.custom.js"); ?>
 
 		<script type="text/javascript" charset="utf-8" src="//cdn.datatables.net/1.10.1/js/jquery.dataTables.js"></script>
