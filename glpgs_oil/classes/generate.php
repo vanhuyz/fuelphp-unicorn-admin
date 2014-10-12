@@ -817,7 +817,7 @@ MODEL;
 		// Add the default template if it doesn't exist
 		if ( ! is_file($app_template = $base_path.'views/template.php') )
 		{
-			static::create($app_template, file_get_contents(\Package::exists('oil').'views/scaffolding/template.php'), 'view');
+			static::create($app_template, file_get_contents(\Package::exists('glpgs_oil').'views/scaffolding/template.php'), 'view');
 		}
 
 		$subnav = '';

@@ -77,7 +77,7 @@ class Generate_Unicorn extends Generate_Scaffold
 			}
 			else
 			{
-				Generate::create(APPPATH.$file['location'], file_get_contents(\Package::exists('oil').'views/'.static::$view_subdir.$file['source']), $file['type']);
+				Generate::create(APPPATH.$file['location'], file_get_contents(\Package::exists('glpgs_oil').'views/'.static::$view_subdir.$file['source']), $file['type']);
 			}
 		}
 
