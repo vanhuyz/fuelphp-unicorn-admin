@@ -15,9 +15,11 @@ $ git clone git@github.com:vanhuyz/fuelphp-unicorn-admin.git
 ### Copy to your fuelphp project
 
 ```sh
+# the package folder
 $ cp -R fuelphp-unicorn-admin/glpgs_oil/ /path/to/your/fuelphp_project/fuel/packages/glpgs_oil
 
-$ cp -R fuelphp-unicorn-admin/assets/ /path/to/your/fuelphp_project/fuel/public/assets/
+# the assets folder
+$ cp -R fuelphp-unicorn-admin/assets/ /path/to/your/fuelphp_project/public/assets/
 ```
 
 ### Edit `oil` file in the project root, change
