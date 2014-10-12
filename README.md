@@ -10,7 +10,6 @@ Make your admin panel more beautiful with a template from Unicorn Admin
 
 ```sh
 $ git clone git@github.com:vanhuyz/fuelphp-unicorn-admin.git
-
 ```
 
 ### Copy to your fuelphp project
@@ -19,9 +18,10 @@ $ git clone git@github.com:vanhuyz/fuelphp-unicorn-admin.git
 $  cp -R fuelphp-unicorn-admin/glpgs_oil/ /path/to/your/fuelphp_project/fuel/packages/glpgs_oil
 
 $ cp -R fuelphp-unicorn-admin/assets/ /path/to/your/fuelphp_project/fuel/public/assets/
-``
+```
 
 ### Edit `oil` file in the project root, change
+
 from
 
 ```php
@@ -37,7 +37,7 @@ Package::load('custom_oil');
 
 ## Usage
 
-The usage is almost the same as the original [Admin scaffolding](Admin scaffolding), just replace `admin` with `unicorn`
+The usage is almost the same as the original [Admin scaffolding](http://fuelphp.com/docs/packages/oil/generate.html#/admin), just replace `admin` with `unicorn`
 
 For example,
 
